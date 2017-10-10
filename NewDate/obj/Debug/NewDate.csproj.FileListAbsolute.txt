@@ -1,0 +1,7 @@
+c:\users\ljcon\source\repos\NewDate\NewDate\bin\Debug\NewDate.exe.config
+c:\users\ljcon\source\repos\NewDate\NewDate\bin\Debug\NewDate.exe
+c:\users\ljcon\source\repos\NewDate\NewDate\bin\Debug\NewDate.pdb
+c:\users\ljcon\source\repos\NewDate\NewDate\obj\Debug\NewDate.csproj.CoreCompileInputs.cache
+c:\users\ljcon\source\repos\NewDate\NewDate\obj\Debug\NewDate.exe
+c:\users\ljcon\source\repos\NewDate\NewDate\obj\Debug\NewDate.pdb
+c:\users\ljcon\source\repos\NewDate\NewDate\obj\Debug\NewDate.csprojResolveAssemblyReference.cache

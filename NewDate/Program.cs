@@ -11,15 +11,12 @@ namespace NewDate
         static void Main(string[] args)
         {
 
-            DateDiff();
-            Console.ReadLine();
-           
-
-            
+            Dates();
+            Console.ReadLine();         
 
         }
 
-        public static void DateDiff()
+        public static void Dates()
         {
 
             Console.WriteLine("Enter any date: ");
@@ -27,16 +24,17 @@ namespace NewDate
             Console.WriteLine("Enter another date: ");
             DateTime secondDate = DateTime.Parse(Console.ReadLine());
 
-            TimeSpan difference = firstDate - secondDate;
+            TimeSpan diff = (firstDate - secondDate).Duration();
             
-            Console.WriteLine("Days : " + difference.TotalDays.ToString());
-            Console.WriteLine("Hours : " + difference.TotalHours.ToString());
-            Console.WriteLine("Minutes : " + difference.TotalMinutes.ToString());
+            Console.WriteLine("Days : " + diff.TotalDays.ToString());
+            Console.WriteLine("Hours : " + diff.TotalHours.ToString());
+            Console.WriteLine("Minutes : " + diff.TotalMinutes.ToString());
            
 
         }
       
     }
+
 
     
 }

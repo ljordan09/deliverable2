@@ -22,7 +22,7 @@ namespace NewDate
             Console.WriteLine("Enter date and time in any format (eg. mm/dd/yyy and 12:00) : ");
             DateTime firstDate = DateTime.Parse(Console.ReadLine());
             Console.WriteLine("Enter another date and time: ");
-            DateTime secondDate = DateTime.Parse(Console.ReadLine());
+            DateTime secondDate = DateTime.Parse(Console.ReadLine());//accepts and converts date and time from any format.
             
             //calculates the time duration between the two user inputs
             TimeSpan diff = (firstDate - secondDate).Duration();
